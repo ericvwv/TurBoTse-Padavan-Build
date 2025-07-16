@@ -37,7 +37,8 @@ on:
         - Xiaoyu_C3
         - Xiaoyu_C5
         - ZTE_E8820S
-        default: JDCLOUD-RE-SP-01B
+        - JDCloud_1
+        default: JDCloud_1
       plugins:
         description: 'json format string of include configs'
         required: true
@@ -69,6 +70,9 @@ jobs:
           {
             "Gee_B70": {
               "model": "B70"
+            },
+            "JDCloud_1": {
+              "model": "JDCLOUD-RE-SP-01B"
             },
             "Nokia-Sbell_A-040W-Q": {
               "model": "BELL-A040WQ"
